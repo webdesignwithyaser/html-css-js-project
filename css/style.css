@@ -1,0 +1,172 @@
+/* Universal selector to reset default styling */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+    list-style: none;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 150px;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+nav a{
+    padding: 2%;
+    text-align: right;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    justify-content: right;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+header {
+    position: fixed; /* Keeps the header fixed at the top */
+    top: 0;          /* Positions the header at the top of the page */
+    left: 0;         /* Aligns the header to the left */
+    width: 100%;     /* Full width of the viewport */
+    background-color: #3B5998;
+    color: white;
+    padding: 10px 0;
+    text-align: left;
+    height: 15vh;
+    z-index: 1000;   /* Ensures the header stays on top of other elements */
+}
+
+/* Navigation menu inside header */
+nav {
+    display: flex;
+    justify-content: right;
+    gap: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styling */
+main {
+    margin-top: 120px; /* Add margin-top to prevent content from being hidden behind the fixed header */
+    padding: 20px;
+    
+}
+img{
+    height: 20%;
+    float: left;
+    margin: 2%;
+    margin-right: 100px;
+    padding-left: 10%;
+}
+#about-div{
+    margin-top: 5%;
+    padding: 10%;
+}
+#skills{
+    clear: both;
+}
+h2{
+    font-size: 200%;
+}
+.skills-div{
+    border: 2px solid black;
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+    height: 220%;
+    padding: 3%;
+    padding-bottom: 5%;
+}
+.skills-div p{
+    padding: 1%;
+    margin: 1%;
+    text-align: center;
+}
+#Projects h3, p{
+    margin: 1%;
+}
+#Projects p{
+    margin-left: 4%;
+    border-bottom: 1px solid black;
+}
+#Projects{
+    padding-bottom: 100px;
+}
+td{
+    border: 1px solid gray;
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+    height: 220%;
+    padding: 2%;
+    font-weight: bold;
+}
+.leave{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  padding: 20px;
+}
+iframe{
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+h1{
+    font-size: 200%;
+}
+footer{
+    background-color: #3B5998;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+#hom-icon{
+    text-align: right;
+}
